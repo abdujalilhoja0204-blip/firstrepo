@@ -61,3 +61,4 @@ lsblk
 lslbk -f
 df -h
 #SaloM 
+Salom terminal
