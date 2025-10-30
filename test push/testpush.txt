@@ -1,6 +1,63 @@
-asdsdasdasd
-adasdsasdasd
-dadasdasdsads
-ASNKADSNADSK
-salom github
-print "github commits"
+4-dars
+1. cat /atc/passwd -- userlar ro'uxatini chiqaradi
+	id < 1000 - system users
+	id > 1000 - standart users
+3. useradd - low level komanda
+4. adduser - interactive komanda
+5. sudo chown :mygroup testuser - testuserni guruhini mygroupga o'zgartirish
+6. userdel - userlarni o'chirish
+7. groupadd - guruh qo'shish
+8. usermod -aG - userni guruhga qo'shish 
+9. sudo passwd (username) - userni paroli o'zgartirish
+10. df -h  - Disk bo‘limlari va ularning band/bo‘sh joyini ko‘rsatadi
+11. du -h /path  - Papka yoki fayl hajmini ko‘rsatadi
+12. mount - Joriy ulangan fayl tizimlarini ko‘rsatadi
+11. mount /dev/sdb1 /mnt  -  Diskni /mnt ga ulash
+12. umount /mnt - Diskni uzish
+13. lsblk - Disklar va bo‘limlarni daraxt shaklida ko‘rsatadi
+14. blkid - Disk bo‘limlari va ularning UUID, fayl tizimi turini ko‘rsatadi
+15. fdisk -l - Fizik disk bo‘limlari haqida batafsil ma’lumot beradi
+16. mkfs.ext4 /dev/sdb1 - Disk bo‘limini ext4 fayl tizimida formatlash
+
+
+cat /etc/passwd - userlarni ro'yxati
+  id < 1000 - system users
+  id > 1000 - standars users
+useradd - low level komanda
+userdel - user o'chirish
+adduser - interactive komanda
+sudo passwd - password o'zgartirish
+groupadd - 
+usermod - 
+
+--------------------------------------
+
+sudo apt update
+sudo apt install nginx
+sudo apt install net-tools
+
+netstat -tulpn
+
+---------------------------------------
+digitaloceanda droplet yaratish
+volume mount qilish
+filesystem o'rnatish
+mount - mkdir /mnt/myfolder va mount
+unmount (umount)
+filesystem o'chirish (wipefs)
+fdisk /dev/sdb
+m - menu
+n - new partition
+w - save and exit
+q - save qilmasdan chiqib ketish
+
+20 gb - 20 * 1024 * 1024 * 1024 / 512
+
+yaratilgan partitionga fileysystem o'rnatish (mkfs.ext4)
+tepadigi filesystemni mount qilish - mkdir /mnt/myfolder va mount
+
+
+lsblk
+lslbk -f
+df -h
+#SaloM 
