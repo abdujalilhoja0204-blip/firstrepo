@@ -3,3 +3,4 @@ adasdsasdasd
 dadasdasdsads
 ASNKADSNADSK
 salom github
+print "github commits"
